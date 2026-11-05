@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(28, 50, 29);
+    color: rgb(238, 239, 236);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+.nav-underline{
+    gap: 100px;
+}
+.nav-link{
+    color: rgb(238, 239, 236);
+    font-size: 28px;
+}
+.nav-link:hover, 
+.nav-link:focus{
+    color: rgb(238, 239, 236);
+}
+h1, h2{
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 48px;
+}
+#logo{
+    width: 100px;
+}
+#logoTxt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+#h1Span{
+    font-size: 24px;
+    color: rgb(162, 175, 141);
+    font-weight: 400;
+}
+#book{
+    width: fit-content;
+    padding: 20px 40px;
+    height: fit-content;
+    border-radius: 50px;
+    background-color: rgb(92, 118, 69);
+    color: white;
+    border: none;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+#book img{
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;
+}
+#arrow{
+    margin-right: 0;
+    margin-left: 10px;
+    height: 28px;
+    width: 28px;
+}
+#calendar{
+    background-color: white;
+}   
+.d-block{
+    height: 1000px;
+}
+.carousel-caption{
+    width: fit-content;
+    left: 300px;
+    top: 350px;
+    text-align: start;
+    font-size: 32px;
+}
+.carousel-caption h5{
+    font-size: 64px;
+    width: 600px;
+    text-align: start;
+}
+.carousel-control-prev, 
+.carousel-control-next{
+    width: 5%;
+}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon{
+    display: none;
+}
+#slider{
+    background-color: rgb(135, 157, 90);
+    color: white;
+}
+.carousel-indicators{
+    gap: 20px;
+}
+#dots{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#dots:focus,
+#dots:active{
+    background-color: rgb(92, 118, 69);
+}
+#sectFlex{
+    background-color: rgb(252, 249, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 25px;
+}
+.arrows{
+    height: fit-content;
+    padding: 20px;
+    background-color: rgb(162, 175, 141);
+    border-radius: 50%;
+}
+#arrowHeads{
+    width: 32px;
+    height: 32px;
+}
+.card{
+    border-radius: 15px;
+    height: 100%;
+}
+.card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 50px;
+    background-color: rgb(46, 81, 40);
+    color: white;
+    border: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+#price{
+    color: rgb(92, 118, 69);
+    font-weight: 700;
+    font-size: 24px;
+}
+#night{
+    color: rgb(92, 118, 69);
+    font-weight: 400;
+    font-size: 22px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 24px;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+#ftLogoTxt{
+    margin-left: 140px;
+}
+#line{
+    height: 2px;
+    width: 100%;
+    background-color: rgb(162, 175, 141);
+}
+footer>p{
+    text-align: center;
+}
